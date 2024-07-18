@@ -1,146 +1,613 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Vanessa's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html class="no-js" lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Welcome to my Portfolio</h1>
-						<p> A showcase of my projects, abilities, and interest in a various set of programming languages.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Vanessa's Portfolio</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!--flat icon css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Vanessa's Portfolio</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+			                    <li class="smooth-menu"><a href="#education">education</a></li>
+			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
+			                    <li class="smooth-menu"><a href="#experience">experience</a></li>
+			                    <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
+			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+	
+		<!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>hi <span>,</span> i am <br> Vanessa <br> Johnson<span>.</span>   </h2>
+							<p> Mobile Engineer (Android & iOS)</p>
+							<!-- <a href="assets/download/browney.txt" download>download resume</a> -->
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>about me</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									I am a professional mobile engineer with experiences and projects in both Android and iOS development.
+								<p>
+									My name is Vanessa Johnson. I am a mobile engineer who has experience in both Android and iOS. With my 
+									internship in iOS at NYU and my 2 internships in Android at Zocdoc and the New York Times, I have worked with a range
+									of technologies that allow me to make functional mobile apps. From designing user-friendly interfaces to implementing 
+									complex functionalities, I've done it in both Android and iOS environments. Your dream app deserves the best start. I'm 
+									excited to offer my services to help businesses and individuals bring their app ideas to life and turn their idea into a 
+									reality that stands out in the app marketplace. Whether you need assistance with developing a new app, improving an 
+									existing one, or simply seeking advice on mobile app strategy, I'm here to help. I’m also open to tackle any challenges.
+									Make sure to check out my projects!
+								</p>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>vmjohnson999@gmail.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div>
+								<img src="assets/images/profilePic.png" alt="profile_image">
+
+							</div>
+
+						</div>
 					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Vanessa Johnson</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Portfolio</a></li>
-							<li><a href="aboutMe.html">About Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/vanessa-johnson-a95885182/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li> 
-							<li><a href="https://github.com/vanessamj99" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2>Python Blockchain</h2>
-										<p> A simple blockchain that was written in python that includes hashing, proof of work, and validation of the blockchain.
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+		
+		<!--education start -->
+		<section id="education" class="education">
+			<div class="section-heading text-center">
+				<h2>education</h2>
+			</div>
+			<div class="container">
+				<div class="education-horizontal-timeline">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2022-2023</h2>
+									<h3>Master <span>of </span> Information Systems Management</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											Carnegie Mellon University
+										</h4>
+										<h5>Pittsburgh, Pennsylvania</h5>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2017-2021</h2>
+									<h3>bachelor <span>of </span> arts in computer science</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											New York University
+										</h4>
+										<h5>New York, New York</h5>
+										<p class="description">
+											
 										</p>
-									</header>
-								</article>
-
-								<article>
-									<header>
-										<h2>Food Diary Smart Contract</h2>
-									</header>
-									<p>A smart contract that was written in solidity to help users track their meals throughout their day and be able to reference what
-										they ate in previous days. This was made using remix.
-									</p>
-								</article>
-
-								<article>
-									<header>
-										<h2>Dolphin NFT Artwork</h2>
-										<p> A program written in order to create multiple random pieces of artwork that involve dolphins that can be
-											deployed on the blockchain as NFTs.
-										</p>
-									</header>
-								</article>
-
-								<article>
-									<header>
-										<h2>SONYC</h2>
-										<p>Are you tired of all of the noise you hear in the day when you are trying to work or in the night when you are trying to sleep? This project consisted of an application written in swift in order to mitigate the noise pollution in urban communities. In order to measure the sound level around a user, there is a decibel meter that uses audio signal processing that shows the amount of decibels in the user's area.
-										</p>
-									</header>
-								</article>
-								<article>
-									<header>
-										<h2>Monster Forest Game</h2>
-									</header>
-									<p>Wouldn't you want to play a game that is one of a kind? This project was a tile based game where the main character has to go into different rooms to collect the coins in order to win the game when crossing the finish line. Along the player's way to retrieve the coins, they face the challenge of the randomly generated monsters that appear and will cause a decrease in health if the player comes into contact with them. The player can make noise into their microphone in order to ward off the monsters to get to the coins and the end of the game savely. There are also hearts in every room to help with the player's health level.</p>
-								</article>
-								<article>
-									<header>
-										<h2>Course Registration System</h2>
-									</header>
-									<p>Did you ever think about how your school makes the system in which you register for classes? This project recreates a course registration system similar to my university's system for students to register for classes and for an admin to place a student in a class for a specific reason.</p>
-								</article>
-								<article>
-									<header>
-										<h2>Magic Garden
-										</h2>
-									</header>
-									<p>Have you ever wanted to create your own magical garden? This project grows a garden of flowers by planting seeds every time the user clicks the mouse. Each flower grows to a height of a random measurement and sprouts a petal of a random color that turns as if it is blowing in the wind.</p>
-								</article>
-								<article>
-									<header>
-										<h2>Quick Meal</h2>
-									</header>
-									<p>This project was entered in an entrepenurial compeition at my university where my team made it to the finals. It is an application to help college students suffering from food insecurity.</p>
-								</article>
-							</section>
-
-						<!-- Footer -->
-							<footer>
-							</footer>
-
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
 					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section>
-								<h3>Email</h3>
-								<p>vanessaj@andrew.cmu.edu</p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/vanessa-johnson-a95885182/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/vanessamj99" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Vanessa Johnson</li></ul>
-					</div>
-
+				</div>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</section><!--/.education-->
+		<!--education end -->
 
-	</body>
+		<!--skills start -->
+		<section id="skills" class="skills">
+				<div class="skill-content">
+					<div class="section-heading text-center">
+						<h2>skills</h2>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<span class="progressText">Mobile App Development</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
+													  
+												</div>
+											</div>
+											<h3>90%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Mobile App Design</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>80%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<span class="progressText">Kotlin</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
+													
+												</div>
+											</div>
+											<h3>90%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Swift</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>90%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+						</div><!-- /.row -->
+					</div>	<!-- /.container -->		
+				</div><!-- /.skill-content-->
+
+		</section><!--/.skills-->
+		<!--skills end -->
+
+		<!--experience start -->
+		<section id="experience" class="experience">
+			<div class="section-heading text-center">
+				<h2>experience</h2>
+			</div>
+			<div class="container">
+				<div class="experience-content">
+						<div class="main-timeline">
+							<ul>
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>2023-2023</h2>
+													<h3>Software Engineer Intern (Android)</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															The New York Times
+														</h4>
+														<h5>New York, New York</h5>
+														<p class="description">
+															Utilized Jetpack Compose in Kotlin and developed a new UI that would encourage more subscription sign ups in the consumer facing games app based on Figma designs.
+Implemented a post login/ post registration offer that pulled data from firebase to populate the information on the card to increase the subscription sign ups which is at 100% roll out that improved conversion in the app by 31%.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															Zocdoc
+														</h4>
+														<h5>New York, New York</h5>
+														<p class="description">
+															Developed and integrated new product features in the existing android mobile application using Kotlin that are were released into production
+that affected over 200,000 users. Enhanced the Zocdoc application by implementing an act fast banner with XML, fragments, and activities that used a lottie animation to alert
+the user that the appointments were limited for that current day or the following day.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2022-2022
+													</h2>
+													<h3>Software Engineer Intern (Android)</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>2020-2021</h2>
+													<h3>Software Engineer Intern (iOS)</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															New York University
+														</h4>
+														<h5>New York, New York</h5>
+														<p class="description">
+															Developed an iOS mobile app in Swift to support New York City residents experiencing issues related to noise pollution that resulted in a
+publication in the ACM CSCW Conference on Computer Supported Cooperative Work
+Analyzed and synthesized audio samples from a microphone with equalization filters in Swift in order to measure the decibels around the user
+to inform them if the level of noise was healthy for them to hear.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2012 - 2013
+													</h2>
+													<h3>UI/UX designer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															ID tech
+														</h4>
+														<h5>New York, New York</h5>
+														<p class="description">
+															Instructed and prepared lesson plans for over 100 students in Javascript with the Sphero RVR robot, Python fundamentals, Python with
+Machine Learning, Coding Games with JavaScript, Coding Apps with Java and used pygame to create games that resulted in many children building new technologies and wanting to learn new languages.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2020-2020, 2021-2022
+													</h2>
+													<h3>Online Instructor</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+							</ul>
+						</div><!--.main-timeline-->
+					</div><!--.experience-content-->
+			</div>
+
+		</section><!--/.experience-->
+		<!--experience end -->
+
+		<!--portfolio start -->
+		<section id="portfolio" class="portfolio">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>portfolio</h2>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<span class="progressText"> <b>Gut Health App</b></span>
+									
+										<div>
+										</br>
+											<p> Details of the gut health app</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+
+									<div class="barWrapper">
+										<span class="progressText"> <b>Morph-A-Pet</b></span>
+										<div>
+										</br>
+											<p> Details of Morph-A-Pet</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+								
+									<div class="barWrapper">
+										<span class="progressText"><b>Gemini Collaboration IDE</b></span>
+										<div>
+										</br>
+											<p> Details of gemini collaboration IDE app</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+
+									<div class="barWrapper">
+										<span class="progressText"><b>Crypto Wallet App</b></span>
+										<div>
+										</br>
+											<p> Details of crypto app</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-skill-content">
+
+									<div class="barWrapper">
+										<span class="progressText"> <b>Apparition</b></span>
+										<div>
+										</br>
+											<p> Details of apparition app</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText"><b>Cup of Positivity</b></span>
+										<div>
+										</br>
+											<p> Details of cup of positivity app</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText"> <b>Rick & Morty Information Hub</b></span>
+										<div>
+										</br>
+											<p> Details of rick & morty information hub</p>
+										</br>
+										</div>
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+						</div><!-- /.row -->
+					</div>	<!-- /.container -->	
+				</div>
+				
+
+			</div><!--/.portfolio-details-->
+
+		</section><!--/.portfolio-->
+		<!--portfolio end -->
+
+		</section><!--/.clients-->
+		<!--clients end -->
+
+		<!--contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>contact me</h2>
+			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-adress">
+									<div class="contact-add-head">
+										<h3>Vanessa Johnson</h3>
+										<p>Mobile Engineer</p>
+									</div>
+									<div class="contact-add-info">
+										<div class="single-contact-add-info">
+											<h3>email</h3>
+											<p>vmjohnson999@gmail.com</p>
+										</div>
+									</div>
+								</div><!--/.contact-adress-->
+								<div class="hm-foot-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/vanessa-johnson999/"><i class="fa fa-linkedin"></i></a></li><!--/li-->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-icon-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
+
+		</section><!--/.contact-->
+		<!--contact end -->
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; copyright Vanessa Johnson. Design iterated from <a href="https://www.themesine.com/">themesine</a>
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>
