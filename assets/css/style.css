@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/phone.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -207,15 +207,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #fff;
+    color: #87b4b7;
     font-size: 54px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
 }
+
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
-    color: #fff;
+    color: #87b4b7;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
