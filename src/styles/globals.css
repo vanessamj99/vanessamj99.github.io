@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-surface text-neutral-900;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-hover text-white font-semibold px-8 py-3 rounded-lg transition-all duration-200 transform hover:scale-[0.97] focus:outline-none focus:ring-4 focus:ring-primary/50;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border border-neutral-700 text-neutral-900 hover:bg-neutral-700/10 font-medium px-6 py-2 rounded-lg transition-all duration-200;
+  }
+  
+  .card-hover {
+    @apply hover:bg-surface-card-hover transition-all duration-200 hover:shadow-[0_12px_32px_rgba(0,0,0,0.6)] hover:-translate-y-1 hover:rotate-[-0.5deg];
+  }
+  
+  .glass-overlay {
+    @apply absolute inset-x-0 bottom-0 h-2/5 bg-black/40 backdrop-blur-md;
+  }
+  
+  .code-window {
+    @apply relative bg-code-bg rounded-xl shadow-[0_8px_24px_rgba(0,0,0,0.5)] p-8 overflow-auto h-72;
+  }
+  
+  .code-text {
+    @apply text-code-text font-mono text-sm leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
