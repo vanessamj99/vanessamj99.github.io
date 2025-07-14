@@ -56,12 +56,12 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-pink-500 animate-pulse"></div>
       </div>
       
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-2 sm:px-4 py-10 sm:py-20 relative z-10">
         <div className="flex justify-center">
           {/* Android Device Frame */}
           <div className="relative">
             {/* Phone Frame */}
-            <div className="relative w-[520px] h-[800px] bg-gradient-to-br from-gray-900 to-gray-800 rounded-[3rem] p-2 shadow-2xl border-4 border-purple-500/30">
+            <div className="relative w-full max-w-[400px] h-[80vh] max-h-[700px] bg-gradient-to-br from-gray-900 to-gray-800 rounded-[3rem] p-2 shadow-2xl border-4 border-purple-500/30">
               {/* Screen */}
               <div className="w-full h-full bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 rounded-[2.5rem] overflow-hidden relative">
                 {/* Status Bar */}
