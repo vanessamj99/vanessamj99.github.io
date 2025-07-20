@@ -289,6 +289,7 @@ export default function HeroSection() {
                           <div>• GraphQLConf 2025 - What if GraphQL Knew Accessibility</div>
                           <div>• TechBash 2025 - Building Inclusive Jetpack Compose Apps</div>
                           <div>• TechBash 2025 - Jetpack Compose Performance</div>
+                          <div>• Droidcon Italy - Building Inclusive Jetpack Compose Apps</div>
                           <div>• KotlinConf 2025 - Building Inclusive Jetpack Compose Apps ✓</div>
                         </div>
                       </div>

@@ -39,6 +39,14 @@ const talks: Talk[] = [
   },
   {
     title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'Droidcon Italy 2025',
+    location: 'Turin, Italy',
+    date: 'November 19-20, 2025',
+    status: 'upcoming',
+    description: 'Sharing insights on building accessible Android applications using Jetpack Compose and leveraging the Accessibility Scanner for better user experience.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
     conference: 'KotlinConf 2025',
     location: 'Copenhagen, Denmark',
     date: 'May 21-23, 2025',
