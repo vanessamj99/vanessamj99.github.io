@@ -3,6 +3,51 @@
 import { ArrowRight, Github, Mail, MessageSquare, Star, ChevronDown } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
+// Import talks array from SpeakingSection
+const talks = [
+  {
+    title: 'What if GraphQL Knew Accessibility',
+    conference: 'GraphQLConf 2025',
+    location: 'Amsterdam, The Netherlands',
+    date: 'September 8-10, 2025',
+    status: 'upcoming',
+    description: 'Exploring how GraphQL can be leveraged to build more accessible applications and improve user experience.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'TechBash 2025',
+    location: 'Poconos, Pennsylvania',
+    date: 'November 5-7, 2025',
+    status: 'upcoming',
+    description: 'Sharing insights on building accessible Android applications using Jetpack Compose and the Accessibility Scanner.'
+  },
+  {
+    title: 'Jetpack Compose Performance: Debugging and Fixing Common Pitfalls',
+    conference: 'TechBash 2025',
+    location: 'Poconos, Pennsylvania',
+    date: 'November 5-7, 2025',
+    status: 'upcoming',
+    description: 'Deep dive into performance optimization techniques for Jetpack Compose applications and common debugging strategies.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'Droidcon Italy 2025',
+    location: 'Turin, Italy',
+    date: 'November 19-20, 2025',
+    status: 'upcoming',
+    description: 'Sharing insights on building accessible Android applications using Jetpack Compose and leveraging the Accessibility Scanner for better user experience.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'KotlinConf 2025',
+    location: 'Copenhagen, Denmark',
+    date: 'May 21-23, 2025',
+    status: 'completed',
+    link: 'https://kotlinconf.com/talks/795897/',
+    description: 'Presented on building accessible Android applications using Jetpack Compose and leveraging the Accessibility Scanner for better user experience.'
+  }
+];
+
 export default function HeroSection() {
   const [currentTime, setCurrentTime] = useState('');
   // Newsletter dynamic state
@@ -138,7 +183,7 @@ export default function HeroSection() {
                           <div className="text-xs text-gray-700">Years Exp</div>
                         </div>
                         <div className="bg-gradient-to-br from-pink-100 to-orange-100 rounded-xl p-3 text-center shadow-sm border border-pink-200">
-                          <div className="text-lg font-bold text-pink-800">4</div>
+                          <div className="text-lg font-bold text-pink-800">{talks.length}</div>
                           <div className="text-xs text-gray-700">Talks</div>
                         </div>
                         <div className="bg-gradient-to-br from-orange-100 to-yellow-100 rounded-xl p-3 text-center shadow-sm border border-orange-200">
@@ -289,7 +334,7 @@ export default function HeroSection() {
                           <div>• GraphQLConf 2025 - What if GraphQL Knew Accessibility</div>
                           <div>• TechBash 2025 - Building Inclusive Jetpack Compose Apps</div>
                           <div>• TechBash 2025 - Jetpack Compose Performance</div>
-                          <div>• Droidcon Italy - Building Inclusive Jetpack Compose Apps</div>
+                          <div>• Droidcon Italy 2025 - Building Inclusive Jetpack Compose Apps</div>
                           <div>• KotlinConf 2025 - Building Inclusive Jetpack Compose Apps ✓</div>
                         </div>
                       </div>

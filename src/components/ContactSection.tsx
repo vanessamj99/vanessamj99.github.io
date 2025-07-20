@@ -3,6 +3,51 @@
 import { Mail, Linkedin, Github, MessageCircle, Send } from 'lucide-react';
 import { useState } from 'react';
 
+// Import talks array for dynamic count
+const talks = [
+  {
+    title: 'What if GraphQL Knew Accessibility',
+    conference: 'GraphQLConf 2025',
+    location: 'Amsterdam, The Netherlands',
+    date: 'September 8-10, 2025',
+    status: 'upcoming',
+    description: 'Exploring how GraphQL can be leveraged to build more accessible applications and improve user experience.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'TechBash 2025',
+    location: 'Poconos, Pennsylvania',
+    date: 'November 5-7, 2025',
+    status: 'upcoming',
+    description: 'Sharing insights on building accessible Android applications using Jetpack Compose and the Accessibility Scanner.'
+  },
+  {
+    title: 'Jetpack Compose Performance: Debugging and Fixing Common Pitfalls',
+    conference: 'TechBash 2025',
+    location: 'Poconos, Pennsylvania',
+    date: 'November 5-7, 2025',
+    status: 'upcoming',
+    description: 'Deep dive into performance optimization techniques for Jetpack Compose applications and common debugging strategies.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'Droidcon Italy 2025',
+    location: 'Turin, Italy',
+    date: 'November 19-20, 2025',
+    status: 'upcoming',
+    description: 'Sharing insights on building accessible Android applications using Jetpack Compose and leveraging the Accessibility Scanner for better user experience.'
+  },
+  {
+    title: 'Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the Accessibility Scanner',
+    conference: 'KotlinConf 2025',
+    location: 'Copenhagen, Denmark',
+    date: 'May 21-23, 2025',
+    status: 'completed',
+    link: 'https://kotlinconf.com/talks/795897/',
+    description: 'Presented on building accessible Android applications using Jetpack Compose and leveraging the Accessibility Scanner for better user experience.'
+  }
+];
+
 export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: '',
@@ -151,7 +196,7 @@ export default function ContactSection() {
                   <div className="text-sm text-gray-700">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-gray-50 rounded-xl">
-                  <div className="text-2xl font-bold text-blue-800">4</div>
+                  <div className="text-2xl font-bold text-blue-800">{talks.length}</div>
                   <div className="text-sm text-gray-700">Conference Talks</div>
                 </div>
                 <div className="text-center p-4 bg-gray-50 rounded-xl">

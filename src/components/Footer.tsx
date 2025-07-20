@@ -73,7 +73,7 @@ export default function Footer() {
               <li>KotlinConf 2025</li>
               <li>GraphQLConf 2025</li>
               <li>TechBash 2025</li>
-              <li>Droidcon Italy</li>
+              <li>Droidcon Italy 2025</li>
             </ul>
           </div>
           
